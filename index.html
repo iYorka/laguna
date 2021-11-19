@@ -441,16 +441,162 @@
           <li class="accommodation-item">
             <div class="accommodation-item-card accommodation-last-item-card-pic">
               <div class="accommodation-last-item-card-ref">
-                <a href="http://" class="accommodation-last-item-btn">Просмотреть все варианты<span class="accommodation-last-item-arrow"></span></a>
+                <a href="http://" class="accommodation-last-item-btn">Просмотреть все варианты<span
+                    class="accommodation-last-item-arrow"></span></a>
               </div>
             </div>
           </li>
         </ul>
       </div>
+    </section>
+    <section class="section-wannatour">
+      <div class="container wannatour-container">
+        <div class="section-header">Хочу тур!</div>
+        <div>
+          <form action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank"
+            class="wannatour-form">
+            <div class="wannatour-in wannatour-city">
+              <label for="city" class="wannatour-l">Город вылета</label>
+              <input type="text" name="city" placeholder="Санкт-Петербург" id="city"
+                class="wannatour-input wannatour-input-city">
+            </div>
+            <div class="wannatour-in wannatour-country">
+              <label for="country" class="wannatour-l">Страна вылета</label>
+              <input type="text" name="country" placeholder="Австралия" id="country"
+                class="wannatour-input wannatour-input-country">
+            </div>
+            <div class="wannatour-in wannatour-date">
+              <label for="date" class="wannatour-l">Дата вылета</label>
+              <input type="date" name="date" placeholder="03.03.2021" id="date"
+                class="wannatour-input wannatour-input-date">
+            </div>
+            <div class="wannatour-in wannatour-nights">
+              <label for="nights" class="wannatour-l">Ночей</label>
+              <input type="integer" name="nights" placeholder="6" id="nights"
+                class="wannatour-input wannatour-input-nights">
+            </div>
+            <div class="wannatour-in wannatour-count">
+              <label for="count" class="wannatour-l">Туристы</label>
+              <input required type="count" name="count" placeholder="2" id="count"
+                class="wannatour-input wannatour-input-count">
+            </div>
+            <button name="submit" class="btn wannatour-btn">
+              Найти
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section-contacts">
+      <div class="container container-contacts">
+        <div class="section-header">Контакты</div>
+        <div class="section-contacts-border">
+          <div class="section-contacts-left">
+            <div class="section-contacts-adress">
+              <div class="section-contacts-title">
+                Адрес
+              </div>
+              <address class="section-contacts-adress-text">
+                Москва, улица Юности, дом 5 строение 4, офис 2
+              </address>
+            </div>
+            <div class="section-contacts-phone">
+              <div class="section-contacts-title">
+                Телефоны
+              </div>
+              <div class="section-contacts-phone-list">
+                <a href="tel:+74995356434" class="section-contacts-phone-link">+7 (499) 535-64-34</a>
+                <a href="tel:+74950050544" class="section-contacts-phone-link">+7 (495) 005-05-44</a>
+              </div>
+            </div>
+            <div class="section-contacts-email">
+              <div class="section-contacts-title">
+                E-mail
+              </div>
+              <div class="section-contacts-email-list">
+                <a class="section-contacts-email-email" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                <div class="section-contacts-email-text">
+                  по вопросам бронирования
+                </div>
+                <a class="section-contacts-email-email" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a>
+                <div class="section-contacts-email-text">
+                  по вопросам сотрудничества
+                </div>
+              </div>
+            </div>
+            <div class="section-contacts-graph">
+              <div class="section-contacts-title">
+                График
+              </div>
+              <div class="section-contacts-graph-text">
+                Понедельник - пятница, <br>
+                с 10:00 до 19:00
+              </div>
+            </div>
+            <div class="section-contacts-btn">
+              <a href="" class="section-contacts-build-btn">Построить маршрут</a>
+            </div>
+          </div>
+          <div class="section-contacts-right">
+            <picture class="">
+              <source srcset="/img/LagunaOffice.png x1, /img/LagunaOffice@x2.png x2">
+              <img src="/img/LagunaOffice.png" alt="Photo Laguna Office">
+            </picture>
+          </div>
+
+        </div>
+
+      </div>
 
     </section>
   </main>
-
+  <footer class="footer">
+    <section class="section-footer">
+      <div class="container container-footer">        
+        <div class="section-footer-cr">
+          <div class="section-footer-cr-text">
+            © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс» <br> <br> Представленная на сайте
+            информация носит справочный характер и не является публичной офертой
+          </div>
+          <div class="section-footer-cr-ps">
+            <a href="" class="section-footer-cr-link">Пользовательское соглашение</a>
+          </div>
+        </div>
+        <div class="section-footer-contacts">
+          <div class="section-footer-contacts-adressdiv">
+            <address class="section-footer-contacts-adress">
+              11710, улица Юности, дом 5 строение 4, офис 2
+            </address>
+          </div>
+          <div class="section-footer-phones">
+            <a href="tel:+74995356434" class="section-footer-phone">+7 (499) 535-64-34</a>
+            <a href="tel:+74950050544" class="section-footer-phone">+7 (495) 005-05-44</a>
+          </div>
+          <div class="section-footer-emails">
+            <a href="mailto:lg.oona@mail.ru" class="section-footer-email">lg.oona@mail.ru</a>
+            <a href="mailto:hotels.ln@mail.ru" class="section-footer-email">hotels.ln@mail.ru</a>
+          </div>
+        </div>
+        <div class="section-footer-icons">
+          <div class="section-footer-icon-link">
+            <a href=""><span class="section-footer-icon footer-owl-icon"></span></a>
+          </div>
+          <div class="section-footer-icon-link">
+            <a href=""><span class="section-footer-icon footer-twitter-icon"></span></a>
+          </div>
+          <div class="section-footer-icon-link">
+            <a href=""><span class="section-footer-icon footer-fb-icon"></span></a>
+          </div>
+          <div class="section-footer-icon-link">
+            <a href=""><span class="section-footer-icon footer-vk-icon"></span></a>
+          </div>
+          <div class="section-footer-icon-link">
+            <a href=""><span class="section-footer-icon footer-inst-icon"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>

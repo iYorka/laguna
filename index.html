@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LAGUNA</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
 </head>
 
 <body>
@@ -69,8 +70,8 @@
           Спецпредложения
         </div>
         <div class="spec-list">
-          <ul class="spec-list-list">
-            <ul class="spec-sublist">
+          <ul class="row">
+            <ul class="col-5 spec-sublist">
               <li class="spec-list-item spec-list-item-maldives">
                 <h1 class="subspec-list-h1">
                   Мальдивские острова
@@ -101,7 +102,7 @@
                 </div>
               </li>
             </ul>
-            <li class="spec-list-item-lux">
+            <li class="col-5 spec-list-item-lux">
               <h1 class="spec-list-h1">
                 Номера категории люкс
               </h1>
@@ -134,10 +135,10 @@
       </div>
     </section>
     <section class="services">
-      <div class="container services-container">
+      <div class="container">
         <div class="section-header">Услуги</div>
-        <ul class="services-list">
-          <li class="services-item">
+        <ul class="row">
+          <li class="col-6 col-6 services-item">
             <div class="services-item-card">
               <img src="/img/services1.png" alt="" class="services-link-pic">
               <div class="services-card-footer">
@@ -148,7 +149,7 @@
               </div>
             </div>
           </li>
-          <li class="services-item">
+          <li class="col-6 services-item">
             <div class="services-item-card">
               <img src="img/services2.png" alt="" class="services-link-pic">
               <div class="services-card-footer">
@@ -159,7 +160,7 @@
               </div>
             </div>
           </li>
-          <li class="services-item">
+          <li class="col-6 services-item">
             <div class="services-item-card">
               <img src="img/services3.png" alt="" class="services-link-pic">
               <div class="services-card-footer">
@@ -171,7 +172,7 @@
               </div>
             </div>
           </li>
-          <li class="services-item">
+          <li class="col-6 services-item">
             <div class="services-item-card">
               <img src="img/services4.png" alt="" class="services-link-pic">
               <div class="services-card-footer">
@@ -189,96 +190,114 @@
     <section class="benefits">
       <div class="container">
         <div class="section-header section-header-benefits">Преимущества</div>
-        <ul class="benefits-list">
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-bath"></span>
-              </div>
-              <div class="small-text benefits-item-card-text">
-                Идейные соображения высшего порядка, а также постоянный количественный рост
-              </div>
-            </div>
-          </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-hanger"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam earum!
+        <ul class="row">
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-bath"></span>
+                </div>
+                <div class="small-text benefits-item-card-text">
+                  Идейные соображения высшего порядка, а также постоянный количественный рост
+                </div>
               </div>
             </div>
           </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-heating"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Cupiditate, aperiam? Eum neque est maxime exercitationem incidunt molestias quaerat?
-              </div>
-            </div>
-          </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-hotelkey"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Possimus repudiandae, ratione deleniti dolor veritatis perferendis debitis.
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-hanger"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam earum!
+                </div>
               </div>
             </div>
           </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-parking"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Aut quasi incidunt deleniti, tenetur excepturi sequi in nam consectetur.
-              </div>
-            </div>
-          </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-reception"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Cumque provident consectetur repellat inventore necessitatibus sint. A, minima voluptatibus.
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-heating"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Cupiditate, aperiam? Eum neque est maxime exercitationem incidunt molestias quaerat?
+                </div>
               </div>
             </div>
           </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-security"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Повседневная практика показывает, что дальнейшее развитие различных форм
-              </div>
-            </div>
-          </li>
-          <li class="benefits-item">
-            <div class="benefits-item-card">
-              <div class="benefits-item-card-head">
-                <span class="benefits-item-card-icon benefits-item-card-icon-pool"></span>
-              </div>
-              <div class="small-text benefits-item-card-text ">
-                Lorem ipsum et possimus quis. Illum, totam. Lorem ipsum et possimus quis. Illum, totam.
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-hotelkey"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Possimus repudiandae, ratione deleniti dolor veritatis perferendis debitis.
+                </div>
               </div>
             </div>
           </li>
 
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-parking"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Aut quasi incidunt deleniti, tenetur excepturi sequi in nam consectetur.
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-reception"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Cumque provident consectetur repellat inventore necessitatibus sint. A, minima voluptatibus.
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-security"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Повседневная практика показывает, что дальнейшее развитие различных форм
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="benefits-item col-lg-3 col-sm-4 col-6">
+            <div class="benefits-item">
+              <div class="benefits-item-card">
+                <div class="benefits-item-card-head">
+                  <span class="benefits-item-card-icon benefits-item-card-icon-pool"></span>
+                </div>
+                <div class="small-text benefits-item-card-text ">
+                  Lorem ipsum et possimus quis. Illum, totam. Lorem ipsum et possimus quis. Illum, totam.
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
+
       </div>
     </section>
     <section class="accommodation">
       <div class="container accommodation-container">
         <div class="section-header section-header-accommodation">Размещение</div>
-        <ul class="accommodation-list">
-          <li class="accommodation-item">
+        <ul class="row">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation1.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -295,10 +314,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation2.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -315,10 +335,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation3.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -335,10 +356,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation4.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -355,10 +377,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation5.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -375,10 +398,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation6.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -395,10 +419,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation7.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -415,10 +440,11 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card">
               <img src="img/accomodation8.png" alt="Accommodation Picture" class="accommodation-item-card-pic">
               <div class="accommodation-item-foot">
@@ -435,16 +461,18 @@
                 <div class="small-text accommodation-item-card-text-trans">Барселона, Испания</div>
                 <a href="http://" class="accommodation-btn">Номера</a>
               </div>
-
+              </div>
             </div>
           </li>
-          <li class="accommodation-item">
+          <li class="col-xl-4 col-md-6 col-sm-10 col-12">
+            <div class="accommodation-item">
             <div class="accommodation-item-card accommodation-last-item-card-pic">
               <div class="accommodation-last-item-card-ref">
                 <a href="http://" class="accommodation-last-item-btn">Просмотреть все варианты<span
                     class="accommodation-last-item-arrow"></span></a>
               </div>
             </div>
+          </div>
           </li>
         </ul>
       </div>
@@ -455,7 +483,7 @@
         <div>
           <form action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank"
             class="wannatour-form">
-            <div class="wannatour-in wannatour-city">
+            <div class="wannatour-in wannato  </div>ur-city">
               <label for="city" class="wannatour-l">Город вылета</label>
               <input type="text" name="city" placeholder="Санкт-Петербург" id="city"
                 class="wannatour-input wannatour-input-city">
@@ -539,7 +567,7 @@
           </div>
           <div class="section-contacts-right">
             <picture class="">
-              <source srcset="/img/LagunaOffice.png x1, /img/LagunaOffice@x2.png x2">
+              <source srcset="/img/LagunaOffice.png, /img/LagunaOffice@x2.png">
               <img src="/img/LagunaOffice.png" alt="Photo Laguna Office">
             </picture>
           </div>
@@ -552,7 +580,7 @@
   </main>
   <footer class="footer">
     <section class="section-footer">
-      <div class="container container-footer">        
+      <div class="container container-footer">
         <div class="section-footer-cr">
           <div class="section-footer-cr-text">
             © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс» <br> <br> Представленная на сайте
